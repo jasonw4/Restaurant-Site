@@ -9,6 +9,7 @@ const app = express();
 
 app.use(cors({ origin: true, credentials: true}));
 
+app.use(express.json());
 
 const port = process.env.PORT || 5500;
 
