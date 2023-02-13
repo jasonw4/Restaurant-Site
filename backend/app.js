@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyparser = require('body-parser');
+const routes = require('./routes/routes')
 require("dotenv").config();
 const app = express();
 
@@ -16,7 +17,7 @@ mongoose
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
-    .then(() => console.log(`Server running on port: ${port}`))
+    .then(() => console.log(`DB Connected`))
     .catch((error) => console.log(error));
 
 app.get('/', (req, res) => res.send('Hello world!'));
