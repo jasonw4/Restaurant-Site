@@ -6,14 +6,16 @@ export default class Navbar extends React.Component {
     render() {
         return (
             <nav class = "nav">
+                {/* Add homepage image link here*/}
                 <ul>
                     <li>
-                        <Link to="/">
-                            Other
-                        </Link>
+                        Menu
                     </li>
                     <li>
-                    Other
+                        Checkout
+                    </li>
+                    <li>
+                        Login
                     </li>
                 </ul>
             </nav>
