@@ -1,23 +1,22 @@
-import React, { Component, NavWrapper } from 'react';
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 export default class Navbar extends React.Component {
     render() {
         return (
+            <nav class = "nav">
                 <ul>
                     <li>
-                        Home
+                        Other
+                    </li>
+                    <li>
+                    Other
                     </li>
                 </ul>
-        )
-
-
+            </nav>
+        );
     }
-
-
-
-
-
-
-
 }
+
+
