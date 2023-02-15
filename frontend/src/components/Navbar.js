@@ -8,7 +8,9 @@ export default class Navbar extends React.Component {
             <nav class = "nav">
                 <ul>
                     <li>
-                        Other
+                        <Link to="/">
+                            Other
+                        </Link>
                     </li>
                     <li>
                     Other
