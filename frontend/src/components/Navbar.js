@@ -5,20 +5,27 @@ import './Navbar.css';
 export default class Navbar extends React.Component {
     render() {
         return (
-            <nav class = "nav">
+            <div className = "navbar">
+                <nav class = "nav">
                 {/* Add homepage image link here*/}
                 <ul>
                     <li>
-                        Menu
+                        <Link to="/">
+                            Menu
+                        </Link>
                     </li>
                     <li>
-                        Checkout
+                        <Link to="/checkout">
+                            Checkout
+                        </Link>
                     </li>
                     <li>
                         Login
                     </li>
                 </ul>
             </nav>
+            </div>
+        
         );
     }
 }
