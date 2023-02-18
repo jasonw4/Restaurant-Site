@@ -1,3 +1,18 @@
 a {
     display: inline-block;
   }
+
+.navbar{
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links{
+  font-size:50px;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  gap: 1.9rem;
+  list-style: none;
+}

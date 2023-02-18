@@ -8,7 +8,7 @@ export default class Navbar extends React.Component {
             <div className = "navbar">
                 <nav class = "nav">
                 {/* Add homepage image link here*/}
-                <ul>
+                <ul className = "links">
                     <li>
                         <Link to="/">
                             Menu
